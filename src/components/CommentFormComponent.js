@@ -50,10 +50,8 @@ class CommentForm extends Component {
               <Row className="form-group">
                 <Label htmlFor="name" md={12}>Your Name</Label>
                 <Col md={12}>
-                  <Control.text model=".name" id="name" className="form-control" name="name" placeholder="Your Name"
-                                validators={{ required, minLength: minLength(3), maxLength: maxLength(15) }}/>
-                  <Errors className="text-danger" model=".name" show="touched"
-                          messages={{required: 'Required. ', minLength: 'Must be greater than 2 numbers. ', maxLength: 'Must be 15 numbers or less. '}} />
+                  <Control.text model=".name" id="name" className="form-control" name="name" placeholder="Your Name" validators={{ required, minLength: minLength(3), maxLength: maxLength(15) }}/>
+                  <Errors className="text-danger" model=".name" show="touched" messages={{required: 'Required. ', minLength: 'Must be greater than 2 numbers. ', maxLength: 'Must be 15 numbers or less. '}} />
                 </Col>
               </Row>
               <Row className="form-group">
