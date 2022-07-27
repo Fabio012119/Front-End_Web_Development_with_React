@@ -5,6 +5,4 @@ telnum:'',
 email:'',
 contactType:'Tel.',
 message:''
-
-
 }
