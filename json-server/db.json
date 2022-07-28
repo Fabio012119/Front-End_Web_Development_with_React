@@ -209,6 +209,14 @@
       "comment": "Test Comment",
       "date": "2022-07-27T13:31:01.891Z",
       "id": 20
+    },
+    {
+      "dishId": 0,
+      "rating": "1",
+      "author": "Fabio Saraseli",
+      "comment": "Great restaurant",
+      "date": "2022-07-28T10:36:22.745Z",
+      "id": 21
     }
   ],
   "promotions": [
@@ -271,6 +279,45 @@
       "message": "afadsfds",
       "date": "2017-12-04T09:41:49.890Z",
       "id": 1
+    },
+    {
+      "firstname": {
+        "firstname": "Fabio",
+        "lastname": "Saraseli",
+        "telnum": "6974375839",
+        "email": "fabiooosara@gmail.com",
+        "contactType": "Email",
+        "message": "test feedback",
+        "agree": true
+      },
+      "date": "2022-07-28T10:11:58.156Z",
+      "id": 2
+    },
+    {
+      "firstname": {
+        "firstname": "Fabio",
+        "lastname": "Saraseli",
+        "telnum": "6974375839",
+        "email": "fabiooosara@gmail.com",
+        "contactType": "Email",
+        "message": "test feedback 2",
+        "agree": true
+      },
+      "date": "2022-07-28T10:19:18.689Z",
+      "id": 3
+    },
+    {
+      "firstname": {
+        "firstname": "Fabio",
+        "lastname": "Saraseli",
+        "telnum": "6974375839",
+        "email": "fabiooosara@gmail.com",
+        "contactType": "Email",
+        "message": "Final Test Feedback ",
+        "agree": true
+      },
+      "date": "2022-07-28T10:35:07.449Z",
+      "id": 4
     }
   ]
 }
